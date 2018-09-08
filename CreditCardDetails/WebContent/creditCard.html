@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Credit Card Details</title>
+
+</head>
+<h1>Credit Card Details</h1>
+<body bgcolor="beige">
+<form action="displaydetails"  method="post">
+
+<label>Enter Name</label> -->
+<input type="text" name="EmployeeName" size=15/>
+
+<label>Mobile Number</label> -->
+<input type="tel" pattern="[7-9]{1}[0-9]{9}"  name="MobileNumber" maxlength="10">
+<br></br>
+<label>Enter card number</label> -->
+<input type="text" name="Card Number"  size=16  maxlength="16"/>
+<br></br>
+<label>Enter Expiry Date</label> -->
+<input type="month" name="Expiry Date" size=10/>
+<br></br>
+<label>Enter CVV</label> -->
+<input type="password" name="CVV" maxlength="3" size=3/>
+<br></br>
+<input type="submit" value="Get Details"/>
+<br></br>
+</form>
+</body>
+</html>

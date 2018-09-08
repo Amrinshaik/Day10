@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee</title>
+</head>
+<body>
+
+<form action="employee" method="post">
+
+<label>Enter Employee Number</label> -->
+<input type="text" name="EmployeeNumber" size=10/>
+<input type="submit"/>
+</body>
+</html>

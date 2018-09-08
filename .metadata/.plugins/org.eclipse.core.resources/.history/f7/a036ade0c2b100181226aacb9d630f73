@@ -1,0 +1,8 @@
+package com.capgemini.employeeapp.model;
+
+import java.util.List;
+
+public interface EmployeeDao {
+	
+
+}

@@ -1,0 +1,55 @@
+package com.capgemini.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/get employee details")
+public class EmployeeServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    public EmployeeServlet() {
+        super();
+    }
+@Override
+public void init() throws ServletException {
+	List<Employee> employees = new ArrayList<>();{
+		employees.add(new Employee(123,"john",300000.0,"devops"));
+		employees.add(new Employee(124,"mac",400000.0,"SAP consultant"));
+		employees.add(new Employee(125,"sia",200000.0,"customer care"));
+		employees.add(new Employee(126,"kiya",200000.0,"customer care"));
+	
+	}
+}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
+		
+		PrintWriter out= response.getWriter();
+		String empid=request.getParameter("EmployeeId");
+		int employee=Integer.parseInt(empid);
+        for (Employee e : Employee) {
+
+			 if(empid==Employee.getEmpId()) {
+				 
+				 out.println("<table><th><td>empName</td><td>salary</td><td>deptName</td></th>");
+				 out.println("<tr><td>"+e.getEmpName()+"</td><td>"+e.getSalary()+"</td><td>"+e.getDeptName()+"</td></tr>");
+			 }
+				 
+				 
+		}
+		
+		
+		
+		
+	}
+
+}

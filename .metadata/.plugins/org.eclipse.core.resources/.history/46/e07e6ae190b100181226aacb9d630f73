@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body bgcolor="cyan">
+<!--   <a href="hello">Click here</a> -->
+
+
+<form action="greet" method="post">     <!-- url for our servlet -->
+<label>Enter your name:</label>
+<input type="text" name="username" size=15/>
+<input type="submit"/>
+
+
+</form>
+</body>
+</html>
