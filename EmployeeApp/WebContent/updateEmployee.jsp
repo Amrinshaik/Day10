@@ -9,7 +9,7 @@
 <body bgcolor="cyan">
 <h1>Add New Employee</h1>
 <hr>
-<form action="updateEmployee" method="post">
+<form action="updateEmployee.do" method="post">     <!-- (.do) for filter to be applied to this page -->
 <label>Employee Id: </label>
 <input type="text" value="${employee.employeeId }" name="empId"readonly/>
 <br><br>

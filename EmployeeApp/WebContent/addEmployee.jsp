@@ -9,7 +9,7 @@
 <body bgcolor="cyan">
 <h1>Add New Employee</h1>
 <hr>
-<form action="addEmployee" method="post">
+<form action="addEmployee.do" method="post">
 <label>Employee Id: </label>
 <input type="number" name="empId" required/>
 <br><br>

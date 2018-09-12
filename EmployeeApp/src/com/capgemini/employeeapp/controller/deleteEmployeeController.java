@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.capgemini.employeeapp.dao.EmployeeDao;
 
-@WebServlet("/deleteEmployee")
+@WebServlet("/deleteEmployee.do")
 public class deleteEmployeeController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private EmployeeDao employeeDao;
@@ -36,7 +36,7 @@ public class deleteEmployeeController extends HttpServlet {
 		RequestDispatcher dispatcher=null;
 		employeeDao = (EmployeeDao) context.getAttribute("employeeDao");
 		if(employeeDao.deleteEmployee(empId)) {
-			response.sendRedirect("getAllEmployees");
+			response.sendRedirect("getAllEmployees.do");
 		}
 		else {
 			dispatcher = request.getRequestDispatcher("error.jsp");

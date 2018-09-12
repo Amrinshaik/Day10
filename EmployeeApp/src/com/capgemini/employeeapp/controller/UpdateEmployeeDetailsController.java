@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.capgemini.employeeapp.dao.EmployeeDao;
 import com.capgemini.employeeapp.model.Employee;
 
-@WebServlet("/updateEmployee")
+@WebServlet("/updateEmployee.do")
 public class UpdateEmployeeDetailsController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -59,7 +59,7 @@ public class UpdateEmployeeDetailsController extends HttpServlet {
 		
 		if(employeeDao.updateEmployee(employee) != null)
 		{
-			response.sendRedirect("getAllEmployees");
+			response.sendRedirect("getAllEmployees.do");
 		}
 		else
 		{

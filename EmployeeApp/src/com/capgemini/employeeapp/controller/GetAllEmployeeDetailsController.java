@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.capgemini.employeeapp.dao.EmployeeDao;
 import com.capgemini.employeeapp.model.Employee;
 
-@WebServlet("/getAllEmployees")
+@WebServlet("/getAllEmployees.do")
 public class GetAllEmployeeDetailsController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private EmployeeDao employeeDao;
