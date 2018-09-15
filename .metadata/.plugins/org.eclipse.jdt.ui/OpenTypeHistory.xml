@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=EmployeeApp/src&lt;com.capgemini.employeeapp.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1536231630942"/>
+<typeInfo handle="=EmployeeApp/src&lt;com.capgemini.employeeapp.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1536666176417"/>
+<typeInfo handle="=BankApp/src&lt;com.capgemini.bankapp.dao{BankAccountDao.java[BankAccountDao" modifiers="513" timestamp="1536666176433"/>
+<typeInfo handle="=BankApp/src&lt;com.capgemini.bankapp.dao{CustomerDao.java[CustomerDao" modifiers="513" timestamp="1536667081869"/>
+<typeInfo handle="=BankApp/src&lt;com.capgemini.bankapp.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1536667328612"/>
+<typeInfo handle="=BankApp/src&lt;com.capgemini.bankapp.service{BankAccountService.java[BankAccountService" modifiers="513" timestamp="1536667280143"/>
 </typeInfoHistroy>

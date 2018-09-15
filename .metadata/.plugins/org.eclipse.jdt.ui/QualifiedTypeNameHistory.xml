@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.ast.ForeachStatement"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.capgemini.employeeapp.dao.impl.EmployeeDaoImpl"/>
 <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.Config"/>
@@ -13,9 +12,26 @@
 <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="com.capgemini.employeeapp.model.Employee"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.dao.BankAccountDao"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.service.CustomerService"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.model.Customer"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.service.impl.BankAccountServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.model.BankAccount"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.Context"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.dao.CustomerDao"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.dao.impl.CustomerDaoImpl"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.service.impl.CustomerServiceImpl"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.dao.impl.BankAccountDaoImpl"/>
+<fullyQualifiedTypeName name="com.capgemini.bankapp.database.Database"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
 </qualifiedTypeNameHistroy>

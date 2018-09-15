@@ -3,14 +3,22 @@ package com.capgemini.bankapp.model;
 public class BankAccount {
 	private long accountId;
 	private String accountType;
-	private long balance;
+	private double balance;
 
 	public BankAccount() {
 		super();
 
 	}
 
-	public BankAccount(long accountId, String accountType, long balance) {
+	@Override
+	public String toString() {
+		return "BankAccount [accountId=" + accountId + ", accountType=" + accountType + ", balance=" + balance
+				+ ", getAccountId()=" + getAccountId() + ", getAccountType()=" + getAccountType() + ", getBalance()="
+				+ getBalance() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
+
+	public BankAccount(long accountId, String accountType, double balance) {
 		super();
 		this.accountId = accountId;
 		this.accountType = accountType;
@@ -33,11 +41,11 @@ public class BankAccount {
 		this.accountType = accountType;
 	}
 
-	public long getBalance() {
+	public double getBalance() {
 		return balance;
 	}
 
-	public void setBalance(long balance) {
+	public void setBalance(double balance) {
 		this.balance = balance;
 	}
 
